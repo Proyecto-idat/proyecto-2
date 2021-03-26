@@ -1,0 +1,76 @@
+.container label{
+	min-width: 150px;
+
+}
+#cabezera{
+	background-color: blue;
+	color: white;
+	font-family: "Verdana, Geneva, sans-serif"	
+}
+#menu{
+	background-color: lightblue;
+	color: black;
+	font-family: "Courier New, Courier, monospace";
+	margin-top: 10px;
+	padding: 10px 0px;
+}
+#formulario{
+	background-color: lightblue;
+	color: black;
+	font-family: "Courier New, Courier, monospace";
+	padding: 10px 0px;
+	margin-top: 10px
+}
+#usuario{
+	opacity: 60%;
+	font-size: 40px;
+}
+.nav-link{
+	border-right: solid 2px black
+}
+#productos{
+	border: none;
+}
+#lupa{
+	font-size: 15px
+}
+#validar{
+	margin-left: 10px
+}
+main .form-inline{
+	margin-bottom: 15px;
+}
+main form label{
+	min-width: 200px
+}
+.custom-file{
+	width: 400px
+}
+textarea{
+	resize: none;
+}
+#boton{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#style-botones{
+	grid-column: 2 / 2;
+	width: 100px;
+	margin: auto;
+}
+#style-botones1{
+	grid-column: 3 / 4;
+	width: 100px;
+}
+footer{
+	background-color: #007bff;
+	margin-top: 10px
+}
+footer a{
+	color: black;
+	padding: 20px 0px
+}
+footer a:hover{
+	text-decoration: none;
+	color: white
+}
